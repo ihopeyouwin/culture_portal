@@ -1,0 +1,21 @@
+.card {
+  margin: 0 auto;
+  max-width: 50%;
+  @media (min-width: 320px) and (max-width: 767px){
+    max-width: 80%;
+  }
+ }
+
+.mediaCard {
+  img {
+    @media (min-width: 320px) and (max-width: 992px) {
+      margin: 0 auto !important;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 992px) {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+ }
+
